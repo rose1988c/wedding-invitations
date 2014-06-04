@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<link rel="dns-prefetch" href="//zhaoda.net">
+<meta name="viewport" content="width=320.1, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<meta name="x5-orientation" content="portrait" />
+<meta name="x5-fullscreen" content="true" />
+<meta name="x5-page-mode" content="app" />
+<title>赵达&江珊结婚请柬</title>
+<link type="text/css" rel="stylesheet" media="screen" href="bower_components/onepage-scroll/onepage-scroll.css"/>
+<style>
+body {font-family: "微软雅黑"; background: #7B0002;}
+.onepage-pagination li a:before {border: 1px solid #bf0a1f; background: #bf0a1f;}
+.onepage-pagination li a.active:before {border: 1px solid #bf0a1f;}
+.main section .container {max-width: 640px; height: 100%; margin: 0 auto;}
+.section-1 {background: #7B0002;}
+.section-1 .container {background: url('img/page1.png') center 0 no-repeat; background-size: 100%;}
+.section-1 .open {position: absolute; left: 0; bottom: 0; font-size: 2em; padding: 1em 0; width: 100%; text-align: center; text-shadow: 0 0 3px #000; color: #B5925D;}
+.section-2 {background: #0A0605;}
+.section-2 .container {background: #000 url('img/page2.png') center bottom no-repeat; background-size: 100%;}
+.section-2 .container h2 {float: left; width: 100%; text-align: center; font-size: 1em; margin-top: 2em; color: #B20000;}
+.section-2 .container h3 {float: left; width: 100%; text-align: center; font-size: 1.6em; margin-top: 0.5em; color: #B20000;}
+.section-3 {background: #690001;}
+.section-3 .container {background: url('img/page3.png') center 0 no-repeat; background-size: 100px;}
+.section-3 .container ul {margin-left: -1em; font-size: 1em; padding-top: 100px; color: #D1A762; line-height: 1.6em;}
+.section-3 .button {width: 80%; margin: 0 auto;}
+.section-3 .button a {display: block; padding: 0.5em; margin: 1em 0 0 0; text-align: center; background: #D1A762; color: #690001; border-radius: 1em; text-decoration: none;}
+</style>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/onepage-scroll/jquery.onepage-scroll.min.js"></script>
+<script>
+(function($, win, doc) {
+$(function() {
+  var $main = $('.main')
+  $main.onepage_scroll({
+    sectionContainer: 'section'
+  })
+  $('.section-1').on('click', function() {
+    $main.moveDown()
+  })
+  $('.section-2').on('click', function() {
+    $main.moveDown()
+  })
+  $('.section-3').on('click', function() {
+    $main.moveDown()
+  })
+  $('.section-3 a').on('click', function(event) {
+    event.stopPropagation()
+  })
+})
+})(jQuery, window, document)
+</script>
+</head>
+<body>
+<div class="main">
+  <section class="section-1">
+    <div class="container">
+      <h1 class="open"><span>台启</span></h1>
+    </div>
+  </section>
+  <section class="section-2">
+    <div class="container">
+      <h2>新郎赵达 新娘江珊</h2>
+      <h3>谨邀</h3>
+    </div>
+  </section>
+  <section class="section-3">
+    <div class="container">
+      <ul>
+        <li>时间：6月8日（星期天）11:00</li>
+        <li>地点：南岗区铁路街8号昆仑大酒店三楼锦江堂</li>
+        <li>停车：酒店车位有限，可停在哈站广场</li>
+      </ul>
+      <div class="button">
+        <a href="http://user.qzone.qq.com/497443825/photo/V11V91BZ3vt2cO/" target="_blank">婚纱照</a>
+        <a href="https://www.tenpay.com/v2/hybrid/www/weixin/aareceive/rec/confirm.shtml?aa_collection_no=SrxoXIP_NjGFEMW4wpqk-EOl8x8LGvoL6P2Puf_Wqu4%3D" target="_blank">赵达的微信红包</a>
+        <a href="https://www.tenpay.com/v2/hybrid/www/weixin/aareceive/rec/confirm.shtml?aa_collection_no=SrxoXIP_NjGFEMW4wpqk-CXQuC2EhpsHQHgfbXDV17U%3D" target="_blank">江珊的微信红包</a>
+        <a href="http://j.map.baidu.com/k4Kdn" target="_blank">酒店地图</a>
+      </div>
+    </div>
+  </section>
+</div>
+</body>
+</html>
